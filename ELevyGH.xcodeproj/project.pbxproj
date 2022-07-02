@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9791E7802827EEF600F437D8 /* SomeOtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9791E77F2827EEF600F437D8 /* SomeOtherView.swift */; };
 		97B3657C280F419B00ABF85A /* ELevyGHApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3657B280F419B00ABF85A /* ELevyGHApp.swift */; };
 		97B3657E280F419B00ABF85A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3657D280F419B00ABF85A /* ContentView.swift */; };
 		97B36580280F41A000ABF85A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97B3657F280F41A000ABF85A /* Assets.xcassets */; };
 		97B36583280F41A000ABF85A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97B36582280F41A000ABF85A /* Preview Assets.xcassets */; };
+		97B3658A280F41C700ABF85A /* ELevyFeeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B36589280F41C700ABF85A /* ELevyFeeService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9791E77F2827EEF600F437D8 /* SomeOtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeOtherView.swift; sourceTree = "<group>"; };
 		97B36578280F419B00ABF85A /* ELevyGH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELevyGH.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97B3657B280F419B00ABF85A /* ELevyGHApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELevyGHApp.swift; sourceTree = "<group>"; };
 		97B3657D280F419B00ABF85A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		97B3657F280F41A000ABF85A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97B36582280F41A000ABF85A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97B36589280F41C700ABF85A /* ELevyFeeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELevyFeeService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,12 @@
 		97B3657A280F419B00ABF85A /* ELevyGH */ = {
 			isa = PBXGroup;
 			children = (
+				97B36589280F41C700ABF85A /* ELevyFeeService.swift */,
 				97B3657B280F419B00ABF85A /* ELevyGHApp.swift */,
 				97B3657D280F419B00ABF85A /* ContentView.swift */,
 				97B3657F280F41A000ABF85A /* Assets.xcassets */,
 				97B36581280F41A000ABF85A /* Preview Content */,
+				9791E77F2827EEF600F437D8 /* SomeOtherView.swift */,
 			);
 			path = ELevyGH;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97B3658A280F41C700ABF85A /* ELevyFeeService.swift in Sources */,
 				97B3657E280F419B00ABF85A /* ContentView.swift in Sources */,
 				97B3657C280F419B00ABF85A /* ELevyGHApp.swift in Sources */,
+				9791E7802827EEF600F437D8 /* SomeOtherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
